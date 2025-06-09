@@ -47,6 +47,7 @@ validaciones necesarias.
 - Usuario (USER)
 
 ## Acceso
+
 - admin@bahiainglesa.cl (123456)
 - usuario@gmail.com (123456)
 
@@ -61,7 +62,7 @@ validaciones necesarias.
 - HTML
 - Javascript
 - Css
-- Logo Adobe
+- Logo Genspark
 - Visual Studio Code
 - Extenciones Live Preview Microsoft
 - Bootstrap 5.3

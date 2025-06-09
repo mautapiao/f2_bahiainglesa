@@ -32,7 +32,7 @@
                         <a class="nav-link" href="index.html">Portal</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="usuario_page.html">Dashboard</a>
+                        <a class="nav-link" href="admin_page.html">Dashboard</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html"><i class="fa-regular fa-circle-xmark"></i> Cerrar
@@ -46,18 +46,15 @@
     <div class="container justify-content-center mb-4 py-4" style="margin-top: 76px;">
         <div class="card">
             <div class="card-header">
-                Nuevo Anuncio
+                Campaña Cliente
             </div>
             <div class="card-body">
                 <div class="p-md-5">
-                    <h4 class="text-center text-secondary mb-4">Publica tu Anuncio</h4>
+                    <h4 class="text-center text-secondary mb-4">Actualizar</h4>
                     <div id="alertSuccess" class="alert alert-success text-center d-none" role="alert">
                         <div class="flex-grow-1">
                             <h5 class="mb-2"><i class="fas fa-paper-plane me-2"></i>¡Formulario enviado con éxito!</h5>
-                            <p class="mb-1">Revisaremos el anuncio y lo
-                                publicaremos a la brevedad.</p>
-                            <small><i class="fas fa-envelope me-1"></i>Mantente atento a tu correo donde recibirás
-                                mayor información.</small>
+                            
                         </div>
                     </div>
                     <form id="anuncioForm" class="needs-validation" novalidate>
@@ -178,11 +175,14 @@
 
                         <!-- Botón -->
                         
-                        <div class="d-grid mb-3">
-                            <button type="submit" class="btn btn-gold btn-lg mb-3">Publicar y Pagar</button>
-                            <button type="button" class="btn btn-secondary btn-lg" id="btnLimpiar">Limpiar</button>
-                            
-                        </div>
+                      <div class="row mb-3">
+    <div class="col-6">
+        <button type="submit" class="btn btn-primary btn-lg w-100">Actualizar</button>
+    </div>
+    <div class="col-6">
+        <button type="button" class="btn btn-secondary btn-lg w-100" id="btnLimpiar">Limpiar</button>
+    </div>
+</div>
                     </form>
 
                       <!-- Área de resultado -->
