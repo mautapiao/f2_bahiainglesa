@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bahia - Descubre Destinos Turísticos Increíbles</title>
+    <title>Bahía Inglesa - Descubre Destinos Turísticos Increíbles</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/app.js" defer></script>
 </head>
-
 <body>
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top floating-nav shadow-sm">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#inicio">
                 <i class="fas fa-umbrella-beach text-primary me-2 fs-3"></i>
-                <span class="fs-3 fw-bold">Bahia</span>
+                <span class="fs-3 fw-bold">Bahía Inglesa</span>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -31,16 +30,20 @@
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#destinos">Destinos</a>
+                        <a class="nav-link" href="#restaurantes">Restaurant</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#eventos">Eventos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#tours">Tours</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#hospedaje">Hospedaje</a>
-                    </li>
+                    <!-- nueva cracteristica    
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html"><i class="fa-solid fa-lock"></i> Acceso</a>
                     </li>
                 </ul>
             </div>
@@ -56,23 +59,8 @@
                     <div class="card-body">
                         <h5 class="card-title fw-semibold text-secondary mb-3">Acceso Rápido</h5>
                         <div class="d-flex flex-column gap-1">
-                            <a href="#playas" class="sidebar-link">
+                            <a href="playas.html" class="sidebar-link">
                                 <i class="fas fa-wave-square me-2"></i>Playas
-                            </a>
-                            <a href="#montanas" class="sidebar-link">
-                                <i class="fas fa-mountain me-2"></i>Montañas
-                            </a>
-                            <a href="#ciudades" class="sidebar-link">
-                                <i class="fas fa-city me-2"></i>Ciudades
-                            </a>
-                            <a href="#aventura" class="sidebar-link">
-                                <i class="fas fa-hiking me-2"></i>Aventura
-                            </a>
-                            <a href="#cultura" class="sidebar-link">
-                                <i class="fas fa-landmark me-2"></i>Cultura
-                            </a>
-                            <a href="#gastronomia" class="sidebar-link">
-                                <i class="fas fa-utensils me-2"></i>Gastronomía
                             </a>
                         </div>
                     </div>
@@ -86,24 +74,17 @@
                                 <p class="small fw-medium mb-0">🌊 Descuento 20% en tours de playa</p>
                             </div>
                             <div class="p-3 bg-light rounded border-start border-warning border-4">
-                                <p class="small fw-medium mb-0">🏔️ Aventura en montaña desde $99</p>
+                                <p class="small fw-medium mb-0">🏔️ Aventura en dunas desde $70 USD</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </aside>
 
-            <!-- Main Content -->
-            <main class="col-12 col-md-7">
-                <!-- Hero Section 
-                <section id="inicio" class="hero-section rounded mb-5 text-center fade-in-up">
-                    <h2 class="display-3 fw-bold mb-3">Descubre Bahia</h2>
-                    <p class="fs-4 mb-4">Los destinos turísticos más increíbles te esperan</p>
-                    <button class="btn btn-primary btn-lg px-5 rounded-pill fw-semibold">
-                        Explorar Destinos
-                    </button>
-                </section>-->
+            <!-- Sección Main -->
 
+            <main class="col-12 col-md-7">
+                <!-- Sección Hero -->
                 <section id="inicio"
                     class="hero-section rounded mb-5 text-center fade-in-up position-relative overflow-hidden"
                     style="background-image: url('img/logo_bahia_playa.png'); background-size: cover; background-position: center; min-height: 400px;">
@@ -112,12 +93,12 @@
 
                     <div class="container position-relative text-white py-5">
                         <h1 class="display-4 fw-bold mb-3">Descubre Bahía Inglesa</h1>
-                          <p class="fs-5 mb-4">Los destinos turísticos más increíbles te esperan</p>
-                   
+                        <p class="fs-5 mb-4">Los destinos turísticos más increíbles te esperan</p>
+
                     </div>
                 </section>
 
-                <!-- Featured post -->
+                <!-- Sección post o noticias -->
                 <section id="posts" class="mb-5">
                     <div class="card shadow-sm mb-4">
                         <div class="card-body">
@@ -125,23 +106,21 @@
                                 <small class="text-muted">Publicado el 07/06/2025</small>
                                 <small class="text-secondary fw-semibold">Por: Equipo Bahia</small>
                             </div>
-                            <h4 class="card-title text-secondary fw-bold">¡Bienvenidos a Bahia!</h4>
+                            <h4 class="card-title text-secondary fw-bold">¡Bienvenidos!</h4>
                             <p class="card-text text-muted">
                                 Descubre toda la oferta turística de nuestra región: playas, gastronomía, hospedaje,
                                 aventuras y cultura. Este sitio está diseñado para ayudarte a planificar tu próxima
                                 escapada. ¡Y no olvides suscribirte a nuestro boletín para recibir novedades y
                                 promociones exclusivas!
                             </p>
-                            <a href="bienvenidos.html"
-                                class="btn btn-sm btn-outline-primary rounded-pill">Leer más</a>
+                            <a href="bienvenidos.html" class="btn btn-sm btn-outline-primary rounded-pill">Leer más</a>
                         </div>
                     </div>
-
 
                     <div class="card shadow-sm mb-4">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
-                                <small class="text-muted">Publicado el 07/06/2025 a las 10:30</small>
+                                <small class="text-muted">Publicado el 07/06/2025</small>
                                 <small class="text-secondary fw-semibold">Por: María González</small>
                             </div>
                             <h4 class="card-title text-secondary fw-bold">Nueva ruta turística en la costa sur</h4>
@@ -156,24 +135,117 @@
 
                 </section>
 
-                <!-- Featured Destinations -->
-                <section id="destinos" class="mb-5">
-                    <h2 class="display-6 fw-bold mb-4 text-secondary">Destinos Destacados</h2>
+                <!-- Seccion avisos -->
+                <section id="avisos" class="mb-5">
+                    <h2 class="display-6 fw-bold mb-4 text-secondary">Zona Destacada</h2>
                     <div class="row g-4">
                         <div class="col-12 col-md-6">
                             <div class="card destination-card card-hover fade-in-up">
-                                <div class="card-header bg-gradient"
-                                    style="background: linear-gradient(135deg, #3498DB, #2980B9);">
+                                <div class="card-header" style="background: linear-gradient(135deg, #3498DB, #2980B9);">
                                     <div>
-                                        <i class="fas fa-umbrella-beach display-4 mb-2"></i>
-                                        <h3 class="h5 mb-0">Playa Paraíso</h3>
+                                        <i class="fa-regular fa-building display-4 mb-2"></i>
+
+                                        <h3 class="h5 mb-0">Tú empresa puede estar aquí</h3>
                                     </div>
                                 </div>
                                 <div class="card-body">
-                                    <p class="text-muted mb-3">Aguas cristalinas y arena blanca en un entorno
-                                        paradisíaco perfecto para relajarse.</p>
+                                    <p class="text-muted mb-3">Pública en nuestro sitio</p>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <span class="h3 price-highlight mb-0">$150/día</span>
+                                        <span class="h3 price-highlight mb-0"></span>
+                                        <button class="btn btn-primary">Ver publicidad</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="card destination-card card-hover fade-in-up">
+                                <div class="card-header" style="background: linear-gradient(135deg, #27AE60, #229954);">
+                                    <div>
+                                        <i class="fa-regular fa-lightbulb display-4 mb-2"></i>
+                                        <h3 class="h5 mb-0">Tú emprendimiento puede estar aquí</h3>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="text-muted mb-3">Pública en nuestro sitio</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="h3 price-highlight mb-0">
+                                        </span>
+                                        <button class="btn btn-primary">Ver publicidad</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Oferta Avisos gastronomicos -->
+                <section id="restaurantes" class="mb-5">
+                    <h2 class="display-6 fw-bold mb-4 text-secondary">Restaurantes Recomendados</h2>
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6">
+                            <div class="card destination-card card-hover fade-in-up">
+                                <div class="card-header bg-gradient p-0" style="height: 200px; overflow: hidden;">
+                                    <img src="img/elplateado.png" alt="El Plateao" class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="h5 text-secondary fw-bold mb-2">El Plateao</h3>
+                                    <p class="text-muted mb-3">Especialidad en mariscos frescos frente a la playa.
+                                        Ambiente familiar y vista al atardecer.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="h6 price-highlight mb-0">Bahía Inglesa</span>
+                                        <a href="https://www.instagram.com/elplateaoatacama/?hl=es"
+                                            class="btn btn-primary" target="_blank">
+                                            <i class="fab fa-instagram"></i> Ver más
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="card destination-card card-hover fade-in-up">
+                                <div class="card-header bg-gradient p-0" style="height: 200px; overflow: hidden;">
+                                    <img src="img/coralbahia.png" alt="Coral de Bahia"
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="h5 text-secondary fw-bold mb-2">Coral Restaurant</h3>
+                                    <p class="text-muted mb-3">Propuesta gastronómica que tiene sus orígenes en las
+                                        cocinas populares, de caleta, ambulantes y regionales en base a productos del
+                                        mar</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="h6 price-highlight mb-0">Bahía Inglesa</span>
+                                        <a href="https://www.instagram.com/coraldebahia/?hl=es" class="btn btn-primary"
+                                            target="_blank">
+                                            <i class="fab fa-instagram"></i> Ver más
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Seccion Eventos -->
+
+                <section id="eventos" class="mb-5">
+                    <h2 class="display-6 fw-bold mb-4 text-secondary">Eventos Turísticos</h2>
+                    <div class="row g-4">
+                        <div class="col-12 col-md-6">
+                            <div class="card destination-card card-hover fade-in-up">
+                                <div class="card-header bg-gradient p-0" style="height: 200px; overflow: hidden;">
+                                    <img src="img/festival_xii_banner.png" alt="Festival XII"
+                                        class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <div class="card-body">
+                                    <p class="text-muted mb-3">Anunciamos que se abrirán convocatorias para la edición
+                                        2026 del Festival Internacional de Gastronomía de Bahía Inglesa,
+                                        revisa nuestras redes sociales para mayor información.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="h5 price-highlight mb-0">Verano 2026</span>
                                         <button class="btn btn-primary">Ver más</button>
                                     </div>
                                 </div>
@@ -182,58 +254,17 @@
 
                         <div class="col-12 col-md-6">
                             <div class="card destination-card card-hover fade-in-up">
-                                <div class="card-header bg-gradient"
-                                    style="background: linear-gradient(135deg, #27AE60, #229954);">
-                                    <div>
-                                        <i class="fas fa-mountain display-4 mb-2"></i>
-                                        <h3 class="h5 mb-0">Sierra Aventura</h3>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="text-muted mb-3">Montañas majestuosas ideales para senderismo y aventuras
-                                        al aire libre.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span class="h3 price-highlight mb-0">$120/día</span>
-                                        <button class="btn btn-primary">Ver más</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                <div class="card-header bg-gradient p-0"
+                                    style="background: linear-gradient(135deg, #16A085, #1ABC9C);">
+                                    <img src="img/copa_bahia.png" alt="Copa Bahía" class="w-100 h-100 object-fit-cover">
 
-                        <div class="col-12 col-md-6">
-                            <div class="card destination-card card-hover fade-in-up">
-                                <div class="card-header bg-gradient"
-                                    style="background: linear-gradient(135deg, #8E44AD, #7D3C98);">
-                                    <div>
-                                        <i class="fas fa-city display-4 mb-2"></i>
-                                        <h3 class="h5 mb-0">Ciudad Colonial</h3>
-                                    </div>
                                 </div>
                                 <div class="card-body">
-                                    <p class="text-muted mb-3">Historia y cultura en cada rincón de esta hermosa ciudad
-                                        colonial.</p>
+                                    <p class="text-muted mb-3">Atacama se prepara para la Copa Bahía Inglesa 2024:
+                                        natación, canotaje polinésico y stand up paddle protagonizan esta fiesta
+                                        deportiva con identidad regional.</p>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <span class="h3 price-highlight mb-0">$80/día</span>
-                                        <button class="btn btn-primary">Ver más</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-6">
-                            <div class="card destination-card card-hover fade-in-up">
-                                <div class="card-header bg-gradient"
-                                    style="background: linear-gradient(135deg, #E67E22, #D68910);">
-                                    <div>
-                                        <i class="fas fa-tree display-4 mb-2"></i>
-                                        <h3 class="h5 mb-0">Bosque Tropical</h3>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <p class="text-muted mb-3">Biodiversidad única en un ecosistema tropical lleno de
-                                        vida.</p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span class="h3 price-highlight mb-0">$100/día</span>
+                                        <span class="h5 price-highlight mb-0">Noviembre 2025</span>
                                         <button class="btn btn-primary">Ver más</button>
                                     </div>
                                 </div>
@@ -242,7 +273,7 @@
                     </div>
                 </section>
 
-                <!-- Tours Section -->
+                <!-- Sección Tours -->
                 <section id="tours" class="mb-5">
                     <h2 class="display-6 fw-bold mb-4 text-secondary">Tours Populares</h2>
                     <div class="card shadow-sm">
@@ -251,9 +282,9 @@
                                 <div class="col-12 col-md-4">
                                     <div class="tour-card fade-in-up">
                                         <i class="fas fa-ship display-5 mb-3 text-primary"></i>
-                                        <h4 class="h6 fw-semibold mb-2">Tour en Barco</h4>
-                                        <p class="small text-muted">Explora las costas desde el mar</p>
-                                        <p class="h5 fw-bold price-highlight mt-2">$75</p>
+                                        <h4 class="h6 fw-semibold mb-2">GeoTurismo Atacama</h4>
+                                        <p class="small text-muted">Tours en Caldera y Bahía inglesa</p>
+                                        <!-- <p class="h5 fw-bold price-highlight mt-2">$75</p>-->
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-4">
@@ -261,7 +292,7 @@
                                         <i class="fas fa-hiking display-5 mb-3 text-warning"></i>
                                         <h4 class="h6 fw-semibold mb-2">Senderismo</h4>
                                         <p class="small text-muted">Camina por senderos naturales</p>
-                                        <p class="h5 fw-bold price-highlight mt-2">$45</p>
+                                        <!-- <p class="h5 fw-bold price-highlight mt-2">$45</p>-->
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-4">
@@ -269,7 +300,7 @@
                                         <i class="fas fa-camera display-5 mb-3 text-secondary"></i>
                                         <h4 class="h6 fw-semibold mb-2">Tour Fotográfico</h4>
                                         <p class="small text-muted">Captura los mejores momentos</p>
-                                        <p class="h5 fw-bold price-highlight mt-2">$60</p>
+                                        <!--    <p class="h5 fw-bold price-highlight mt-2">$60</p>-->
                                     </div>
                                 </div>
                             </div>
@@ -277,58 +308,29 @@
                     </div>
                 </section>
 
-                <!-- Reviews Section -->
-                <section class="mb-5">
-                    <h2 class="display-6 fw-bold mb-4 text-secondary">Lo que dicen nuestros visitantes</h2>
-                    <div class="row g-4">
-                        <div class="col-12 col-md-6">
-                            <div class="card shadow-sm fade-in-up">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <div class="avatar-circle bg-primary me-3">M</div>
-                                        <div>
-                                            <h5 class="fw-semibold mb-1">María González</h5>
-                                            <div class="stars">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="text-muted mb-0">"¡Increíble experiencia! Los destinos son espectaculares
-                                        y el servicio excelente. Definitivamente regresaré."</p>
-                                </div>
-                            </div>
-                        </div>
+                <!-- llamada a la acción cliente -->
 
-                        <div class="col-12 col-md-6">
-                            <div class="card shadow-sm fade-in-up">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <div class="avatar-circle bg-warning me-3">C</div>
-                                        <div>
-                                            <h5 class="fw-semibold mb-1">Carlos Rodríguez</h5>
-                                            <div class="stars">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="text-muted mb-0">"Bahia nos ayudó a descubrir lugares que jamás habríamos
-                                        encontrado por nuestra cuenta. ¡Altamente recomendado!"</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="card shadow-sm mb-5 special-offer fade-in-up">
+                    <div class="card-body text-center">
+                        <i class="fas fa-bullhorn display-4 mb-3"></i>
+                        <h4 class="h5 fw-bold mb-3">¿Tienes un negocio o evento?</h4>
+                        <p class="mb-3 fs-6">
+                            Anuncia con nosotros y llega a cientos de visitantes que buscan experiencias turísticas en
+                            la región.
+                            Publica tu restaurante, alojamiento, tour o evento cultural.
+                        </p>
+                        <p class="mb-4 text-light-emphasis small">
+                            Solo debes registrarte, seleccionar un plan y enviar tu información.
+                        </p>
+                        <a href="publicar.html" class="btn btn-light rounded-pill fw-semibold px-4">
+                            Publicar mi anuncio
+                        </a>
                     </div>
-                </section>
+                </div>
+
             </main>
 
-            <!-- Right Column - Advertising -->
+            <!-- Columna derecha avisos -->
             <aside class="col-12 col-md-3">
                 <div class="sticky-top" style="top: 100px;">
                     <h3 class="h4 fw-bold mb-4 text-secondary">Hospedaje Recomendado</h3>
@@ -365,23 +367,7 @@
                         </div>
                     </div>
 
-                    <!-- Hotel Ad 3 -->
-                    <div class="card ad-card mb-4 card-hover fade-in-up">
-                        <div class="card-body text-center">
-                            <i class="fas fa-home display-5 mb-3 text-dark"></i>
-                            <h4 class="h5 fw-bold mb-2 text-secondary">Casa Rural Tranquila</h4>
-                            <p class="stars mb-3">⭐⭐⭐⭐</p>
-                            <p class="small text-muted mb-3">Experiencia auténtica en la naturaleza</p>
-                            <div class="bg-light rounded p-2 mb-3">
-                                <p class="h4 fw-bold price-highlight mb-0">$89/noche</p>
-                            </div>
-                            <button class="btn btn-primary rounded-pill fw-semibold w-100">
-                                Más Información
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Special Offer -->
+                    <!-- Ofertas especiales -->
                     <div class="card special-offer text-center fade-in-up">
                         <div class="card-body">
                             <i class="fas fa-gift display-6 mb-3"></i>
@@ -398,6 +384,7 @@
     </div>
 
     <!-- Footer -->
+
     <footer class="footer-bg py-5 mt-5">
         <div class="container">
             <div class="row g-4">
@@ -413,33 +400,27 @@
                 <div class="col-12 col-md-3">
                     <h4 class="h6 fw-semibold mb-3">Destinos</h4>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-light-emphasis text-decoration-none small">Playas</a></li>
-                        <li><a href="#" class="text-light-emphasis text-decoration-none small">Montañas</a></li>
-                        <li><a href="#" class="text-light-emphasis text-decoration-none small">Ciudades</a></li>
-                        <li><a href="#" class="text-light-emphasis text-decoration-none small">Bosques</a></li>
+                        <li><a href="playas.html" class="text-warning text-decoration-none small">Playas</a></li>
+
                     </ul>
                 </div>
 
                 <div class="col-12 col-md-3">
                     <h4 class="h6 fw-semibold mb-3">Servicios</h4>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-light-emphasis text-decoration-none small">Tours Guiados</a></li>
-                        <li><a href="#" class="text-light-emphasis text-decoration-none small">Hospedaje</a></li>
-                        <li><a href="#" class="text-light-emphasis text-decoration-none small">Transporte</a></li>
-                        <li><a href="#" class="text-light-emphasis text-decoration-none small">Actividades</a></li>
+                        <li><a href="#" class="text-warning text-decoration-none small">Publicidad</a></li>
+
                     </ul>
                 </div>
 
                 <div class="col-12 col-md-3">
                     <h4 class="h6 fw-semibold mb-3">Contacto</h4>
-                    <div class="small text-light-emphasis">
-                        <p><i class="fas fa-phone me-2"></i>+1 (555) 123-4567</p>
-                        <p><i class="fas fa-envelope me-2"></i>info@bahia.com</p>
-                        <p><i class="fas fa-map-marker-alt me-2"></i>Av. Turística 123, Bahia</p>
+                    <div class="small text-warning">
+                        <p><i class="fas fa-phone me-2"></i>+56 (9) 93023360</p>
+                        <p><i class="fas fa-envelope me-2"></i>atacama@outlook.com</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Av. El Morro, Bahía Inglesa</p>
                         <div class="d-flex gap-3 mt-3">
-                            <a href="#" class="text-warning fs-4"><i class="fab fa-facebook"></i></a>
-                            <a href="#" class="text-warning fs-4"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="text-warning fs-4"><i class="fab fa-twitter"></i></a>
+                            <!-- aqui sección redes sociales -->
                         </div>
                     </div>
                 </div>
@@ -447,70 +428,14 @@
 
             <hr class="border-secondary my-4">
             <div class="text-center">
-                <p class="small text-secondary mb-0">&copy; 2025 Bahía Inglesa. Todos los derechos reservados. | Diseñado con ❤️
+                <p class="small text-secondary mb-0">&copy; 2025 Bahía Inglesa. Todos los derechos reservados. |
+                    Diseñado con ❤️
                     para aventureros como tú</p>
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Add scroll effect to navbar
-        window.addEventListener('scroll', function () {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 100) {
-                navbar.style.background = 'rgba(255, 255, 255, 0.98)';
-                navbar.classList.add('shadow');
-            } else {
-                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
-                navbar.classList.remove('shadow');
-            }
-        });
-
-        // Intersection Observer for animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function (entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
-
-        // Observe all fade-in elements
-        document.querySelectorAll('.fade-in-up').forEach(element => {
-            observer.observe(element);
-        });
-
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
-            link.addEventListener('click', () => {
-                const navbarCollapse = document.querySelector('.navbar-collapse');
-                if (navbarCollapse.classList.contains('show')) {
-                    const bsCollapse = new bootstrap.Collapse(navbarCollapse);
-                    bsCollapse.hide();
-                }
-            });
-        });
-    </script>
-</body>
+   </body>
 
 </html>

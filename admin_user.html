@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahía Inglesa - Descubre Destinos Turísticos Increíbles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/app.js" defer></script>
+    <script src="js/login.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top floating-nav shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#inicio">
+                <i class="fas fa-umbrella-beach text-primary me-2 fs-3"></i>
+                <span class="fs-3 fw-bold">Bahía Inglesa</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Portal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin_page.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa-regular fa-circle-xmark"></i> Cerrar
+                            Sessión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Layout -->
+    <div class="container min-vh-100 d-flex align-items-center justify-content-center mb-4 py-4" style="margin-top: 76px;">
+        <div class="card">
+            <div class="card-header">
+                Gestión de Usuarios
+            </div>
+            <div class="card-body">
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-bordered table-sm">
+                        <thead class="table-secondary">
+                            <tr>
+                                <th>#</th>
+                                <th>Correo Electrónico</th>
+                                <th>Usuario</th>
+                                <th>Nombre Completo</th>
+                                <th>Rol</th>
+                                <th>Fecha Alta</th>
+                                <th>Estado</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Administrador Primero -->
+                            <tr>
+                                <td>1</td>
+                                <td>admin@empresa.cl</td>
+                                <td>admin</td>
+                                <td>Administrador Sistema</td>
+                                <td><span class="badge bg-danger">ADMIN</span></td>
+                                <td>01/01/2025</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+
+                            <!-- Usuarios de Ejemplo -->
+                            <tr>
+                                <td>2</td>
+                                <td>juan.perez@empresa.cl</td>
+                                <td>jperez</td>
+                                <td>Juan Perez Gonzalez</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>15/02/2025</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>maria.soto@empresa.cl</td>
+                                <td>msoto</td>
+                                <td>Maria Soto Rojas</td>
+                                <td><span class="badge bg-info text-dark">EDITOR</span></td>
+                                <td>20/03/2025</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>carlos.munoz@empresa.cl</td>
+                                <td>cmunoz</td>
+                                <td>Carlos Munoz Diaz</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>05/04/2025</td>
+                                <td><span class="badge bg-danger">Inactivo</span></td>
+                                <td>
+                                     <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>ana.contreras@empresa.cl</td>
+                                <td>acontreras</td>
+                                <td>Ana Contreras Silva</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>10/05/2025</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                     <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>luis.martinez@empresa.cl</td>
+                                <td>lmartinez</td>
+                                <td>Luis Martinez Sepulveda</td>
+                                <td><span class="badge bg-info text-dark">EDITOR</span></td>
+                                <td>22/06/2025</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>sofia.morales@empresa.cl</td>
+                                <td>smorales</td>
+                                <td>Sofia Morales Rodriguez</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>01/07/2025</td>
+                                <td><span class="badge bg-danger">Inactivo</span></td>
+                                <td>
+                                     <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>diego.lopez@empresa.cl</td>
+                                <td>dlopez</td>
+                                <td>Diego Lopez Fuentes</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>18/08/2025</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                     <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>camila.hernandez@empresa.cl</td>
+                                <td>chernandez</td>
+                                <td>Camila Hernandez Torres</td>
+                                <td><span class="badge bg-danger">ADMIN</span></td>
+                                <td>03/09/2025</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>javier.araya@empresa.cl</td>
+                                <td>jaraya</td>
+                                <td>Javier Araya Flores</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>15/10/2025</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                     <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>valentina.espinoza@empresa.cl</td>
+                                <td>vespinoza</td>
+                                <td>Valentina Espinoza Valenzuela</td>
+                                <td><span class="badge bg-info text-dark">EDITOR</span></td>
+                                <td>20/11/2025</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>matias.castillo@empresa.cl</td>
+                                <td>mcastillo</td>
+                                <td>Matias Castillo Ramirez</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>02/12/2025</td>
+                                <td><span class="badge bg-danger">Inactivo</span></td>
+                                <td>
+                                     <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>isidora.reyes@empresa.cl</td>
+                                <td>ireyes</td>
+                                <td>Isidora Reyes Gutierrez</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>10/01/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>benjamin.castro@empresa.cl</td>
+                                <td>bcastro</td>
+                                <td>Benjamin Castro Perez</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>25/01/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                     <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>florencia.gonzalez@empresa.cl</td>
+                                <td>fgonzalez</td>
+                                <td>Florencia Gonzalez Munoz</td>
+                                <td><span class="badge bg-info text-dark">EDITOR</span></td>
+                                <td>08/02/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>agustin.rojas@empresa.cl</td>
+                                <td>arojas</td>
+                                <td>Agustin Rojas Diaz</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>19/03/2024</td>
+                                <td><span class="badge bg-danger">Inactivo</span></td>
+                                <td>
+                                     <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>martina.soto@empresa.cl</td>
+                                <td>msoto2</td>
+                                <td>Martina Soto Contreras</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>01/04/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>vicente.silva@empresa.cl</td>
+                                <td>vsilva</td>
+                                <td>Vicente Silva Martinez</td>
+                                <td><span class="badge bg-danger">ADMIN</span></td>
+                                <td>15/04/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                   <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>emilia.sepulveda@empresa.cl</td>
+                                <td>esepulveda</td>
+                                <td>Emilia Sepulveda Morales</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>28/04/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                  <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>joaquin.rodriguez@empresa.cl</td>
+                                <td>jrodriguez</td>
+                                <td>Joaquin Rodriguez Lopez</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>10/05/2024</td>
+                                <td><span class="badge bg-danger">Inactivo</span></td>
+                                <td>
+                                   <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>antonella.fuentes@empresa.cl</td>
+                                <td>afuentes</td>
+                                <td>Antonella Fuentes Hernandez</td>
+                                <td><span class="badge bg-info text-dark">EDITOR</span></td>
+                                <td>22/05/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                   <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>martin.torres@empresa.cl</td>
+                                <td>mtorres</td>
+                                <td>Martin Torres Araya</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>03/06/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                    <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>maite.flores@empresa.cl</td>
+                                <td>mflores</td>
+                                <td>Maite Flores Espinoza</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>17/06/2024</td>
+                                <td><span class="badge bg-danger">Inactivo</span></td>
+                                <td>
+                                   <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>lucas.valenzuela@empresa.cl</td>
+                                <td>lvalenzuela</td>
+                                <td>Lucas Valenzuela Castillo</td>
+                                <td><span class="badge bg-primary">USUARIO</span></td>
+                                <td>01/07/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                   <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>amanda.ramirez@empresa.cl</td>
+                                <td>aramirez</td>
+                                <td>Amanda Ramirez Reyes</td>
+                                <td><span class="badge bg-info text-dark">EDITOR</span></td>
+                                <td>15/07/2024</td>
+                                <td><span class="badge bg-success">Activo</span></td>
+                                <td>
+                                   <a href="admin_perfil.html" type="button" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

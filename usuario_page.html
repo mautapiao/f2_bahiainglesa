@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahía Inglesa - Descubre Destinos Turísticos Increíbles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/app.js" defer></script>
+    <script src="js/login.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top floating-nav shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#inicio">
+                <i class="fas fa-umbrella-beach text-primary me-2 fs-3"></i>
+                <span class="fs-3 fw-bold">Bahía Inglesa</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Portal</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="usuario_page.html">Dashboard</a>
+                    </li>
+
+            
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa-regular fa-circle-xmark"></i> Cerrar Sessión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Layout -->
+    <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center py-4">
+        <div class="row justify-content-center w-100"> <!-- w-100 para que ocupe el ancho disponible -->
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5"> <!-- Ajusta columnas para controlar el ancho -->
+                
+                <!-- Sección Tours -->
+                <section id="tours" class="mb-1">
+                    <h2 class="display-7 mb-2 text-secondary">Opciones de Usuario</h2>
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div class="row g-4">
+                                <div class="col-12 col-md-4">
+                                    <div class="tour-card fade-in-up">
+                                        <i class="fa-solid fa-bullhorn display-5 mb-3 text-secondary"></i>
+                                        <h4 class="h6 fw-semibold mb-2">Nuevo Anuncio</h4>
+                                        <p class="small text-muted">Crea un nuevo anuncio</p>
+                                        <a href="usuario_publicar.html" class="btn btn-sm btn-outline-secondary">Acceder</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="tour-card fade-in-up">
+                                        <i class="fa-solid fa-clock-rotate-left display-5 mb-3 text-secondary"></i>
+                                        <h4 class="h6 fw-semibold mb-2">Mis Anuncios</h4>
+                                        <p class="small text-muted">Historial anuncios publicados</p>
+                                          <a href="usuario_mis_anuncios.html" class="btn btn-sm btn-outline-secondary">Acceder</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-md-4">
+                                    <div class="tour-card fade-in-up">
+                                        <i class="fa-regular fa-newspaper display-5 mb-3 text-secondary"></i>
+                                        <h4 class="h6 fw-semibold mb-2">Tarifas</h4>
+                                        <p class="small text-muted">Revisa tuestro tariafario</p>
+                                         <a href="usuario_tarifas.html" class="btn btn-sm btn-outline-secondary">Acceder</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+     <!-- Footer -->
+
+    <footer class="footer-bg ">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-3">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-umbrella-beach fs-2 text-warning me-2"></i>
+                        <h3 class="h4 fw-bold mb-0">Bahía Inglesa</h3>
+                    </div>
+                    <p class="small text-light">Descubre los destinos turísticos más increíbles con nosotros. Tu
+                        aventura comienza aquí.</p>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h4 class="h6 fw-semibold mb-3">Destinos</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="playas.html" class="text-warning text-decoration-none small">Playas</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h4 class="h6 fw-semibold mb-3">Servicios</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-warning text-decoration-none small">Publicidad</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h4 class="h6 fw-semibold mb-3">Contacto</h4>
+                    <div class="small text-warning">
+                        <p><i class="fas fa-phone me-2"></i>+56 (9) 93023360</p>
+                        <p><i class="fas fa-envelope me-2"></i>atacama@outlook.com</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Av. El Morro, Bahía Inglesa</p>
+                        <div class="d-flex gap-3 mt-3">
+                            <!-- aqui sección redes sociales -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="border-secondary my-4">
+            <div class="text-center">
+                <p class="small text-secondary mb-0">&copy; 2025 Bahía Inglesa. Todos los derechos reservados. |
+                    Diseñado con ❤️
+                    para aventureros como tú</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

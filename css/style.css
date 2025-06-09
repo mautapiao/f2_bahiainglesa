@@ -1,177 +1,229 @@
    * {
-            font-family: 'Poppins', sans-serif;
-        }
+       font-family: 'Poppins', sans-serif;
 
-        :root {
-            --bs-primary: #3498DB;
-            --bs-secondary: #2C3E50;
-            --bs-success: #27AE60;
-            --bs-warning: #F39C12;
-            --bs-dark: #34495E;
-            --bs-light: #ECF0F1;
-            --gold-accent: #F39C12;
-            --navy-blue: #2C3E50;
-        }
+   }
 
-        .navbar-brand {
-            color: var(--navy-blue) !important;
-            font-weight: 700;
-        }
+   :root {
+       --bs-primary: #3498DB;
+       --bs-secondary: #2C3E50;
+       --bs-success: #27AE60;
+       --bs-warning: #F39C12;
+       --bs-dark: #34495E;
+       --bs-light: #ECF0F1;
+       --gold-accent: #F39C12;
+       --navy-blue: #2C3E50;
+   }
 
-        .navbar-nav .nav-link {
-            color: var(--navy-blue) !important;
-            font-weight: 500;
-            position: relative;
-            transition: all 0.3s ease;
-        }
+   body {
 
-        .navbar-nav .nav-link::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 2px;
-            bottom: 0;
-            left: 50%;
-            background: var(--bs-primary);
-            transition: all 0.3s ease;
-            transform: translateX(-50%);
-        }
+       background-color: whitesmoke;
 
-        .navbar-nav .nav-link:hover {
-            color: var(--bs-primary) !important;
-        }
+   }
 
-        .navbar-nav .nav-link:hover::after {
-            width: 100%;
-        }
+   .navbar-brand {
+       color: var(--navy-blue) !important;
+       font-weight: 700;
+   }
 
-        .hero-section {
-            background: linear-gradient(135deg, var(--navy-blue) 0%, var(--bs-primary) 100%);
-            color: white;
-            padding: 5rem 2rem;
-        }
+   .navbar-nav .nav-link {
+       color: var(--navy-blue) !important;
+       font-weight: 500;
+       position: relative;
+       transition: all 0.3s ease;
+   }
 
-        .card-hover {
-            transition: all 0.3s ease;
-            border: 1px solid rgba(0, 0, 0, 0.125);
-        }
+   .navbar-nav .nav-link::after {
+       content: '';
+       position: absolute;
+       width: 0;
+       height: 2px;
+       bottom: 0;
+       left: 50%;
+       background: var(--bs-primary);
+       transition: all 0.3s ease;
+       transform: translateX(-50%);
+   }
 
-        .card-hover:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-        }
+   .navbar-nav .nav-link:hover {
+       color: var(--bs-primary) !important;
+   }
 
-        .destination-card .card-header {
-            height: 200px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-        }
+   .navbar-nav .nav-link:hover::after {
+       width: 100%;
+   }
 
-        .price-highlight {
-            color: var(--gold-accent);
-            font-weight: 700;
-        }
+   .hero-section {
+       background: linear-gradient(135deg, var(--navy-blue) 0%, var(--bs-primary) 100%);
+       color: white;
+       padding: 5rem 2rem;
+   }
 
-        .tour-card {
-            background-color: var(--bs-light);
-            border: 1px solid #dee2e6;
-            padding: 1.5rem;
-            border-radius: 0.5rem;
-            text-align: center;
-            transition: all 0.3s ease;
-        }
+   .card-hover {
+       transition: all 0.3s ease;
+       border: 1px solid rgba(0, 0, 0, 0.125);
+   }
 
-        .tour-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        }
+   .card-hover:hover {
+       transform: translateY(-5px);
+       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+   }
 
-        .sidebar-link {
-            color: var(--bs-dark);
-            text-decoration: none;
-            padding: 0.75rem;
-            border-radius: 0.375rem;
-            display: flex;
-            align-items: center;
-            transition: all 0.3s ease;
-        }
+   .destination-card .card-header {
+       height: 200px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: white;
+       text-align: center;
+   }
 
-        .sidebar-link:hover {
-            background-color: var(--bs-light);
-            color: var(--bs-primary);
-            transform: translateX(5px);
-            text-decoration: none;
-        }
+   .price-highlight {
+       color: var(--gold-accent);
+       font-weight: 700;
+   }
 
-        .special-offer {
-            background: linear-gradient(45deg, var(--gold-accent) 0%, var(--bs-primary) 100%);
-            color: white;
-        }
+   .tour-card {
+       background-color: var(--bs-light);
+       border: 1px solid #dee2e6;
+       padding: 1.5rem;
+       border-radius: 0.5rem;
+       text-align: center;
+       transition: all 0.3s ease;
+   }
 
-        .ad-card {
-            background-color: white;
-            border: 1px solid rgba(0, 0, 0, 0.125);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
+   .tour-card:hover {
+       transform: translateY(-3px);
+       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   }
 
-        .floating-nav {
-            backdrop-filter: blur(10px);
-            background: rgba(255, 255, 255, 0.95) !important;
-        }
+   .sidebar-link {
+       color: var(--bs-dark);
+       text-decoration: none;
+       padding: 0.75rem;
+       border-radius: 0.375rem;
+       display: flex;
+       align-items: center;
+       transition: all 0.3s ease;
+   }
 
-        .btn-gold {
-            background-color: var(--gold-accent);
-            border-color: var(--gold-accent);
-            color: white;
-        }
+   .sidebar-link:hover {
+       background-color: var(--bs-light);
+       color: var(--bs-primary);
+       transform: translateX(5px);
+       text-decoration: none;
+   }
 
-        .btn-gold:hover {
-            background-color: #E67E22;
-            border-color: #E67E22;
-            color: white;
-        }
+   .special-offer {
+       background: linear-gradient(45deg, var(--gold-accent) 0%, var(--bs-primary) 100%);
+       color: white;
+   }
 
-        .footer-bg {
-            background-color: var(--bs-dark);
-            color: white;
-        }
+   .ad-card {
+       background-color: white;
+       border: 1px solid rgba(0, 0, 0, 0.125);
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   }
 
-        .avatar-circle {
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            color: white;
-        }
+   .floating-nav {
+       backdrop-filter: blur(10px);
+       background: rgba(255, 255, 255, 0.95) !important;
+   }
 
-        .stars {
-            color: #FFC107;
-        }
+   .btn-gold {
+       background-color: var(--gold-accent);
+       border-color: var(--gold-accent);
+       color: white;
+   }
 
-        @media (max-width: 768px) {
-            .hero-section {
-                padding: 3rem 1rem;
-            }
+   .btn-gold:hover {
+       background-color: #E67E22;
+       border-color: #E67E22;
+       color: white;
+   }
 
-            .hero-section h2 {
-                font-size: 2.5rem;
-            }
-        }
+   .footer-bg {
+       background-color: var(--bs-dark);
+       color: white;
+   }
 
-        /* Animation classes */
-        .fade-in-up {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
+   .avatar-circle {
+       width: 48px;
+       height: 48px;
+       border-radius: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-weight: bold;
+       color: white;
+   }
 
-        .fade-in-up.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
+   .stars {
+       color: #FFC107;
+   }
+
+   @media (max-width: 768px) {
+       .hero-section {
+           padding: 3rem 1rem;
+       }
+
+       .hero-section h2 {
+           font-size: 2.5rem;
+       }
+   }
+
+   /* Animación */
+   .fade-in-up {
+       opacity: 0;
+       transform: translateY(20px);
+       transition: opacity 0.6s ease, transform 0.6s ease;
+   }
+
+   .fade-in-up.visible {
+       opacity: 1;
+       transform: translateY(0);
+   }
+
+   /* login */
+
+   .login-card {
+       max-width: 400px;
+       margin: 5rem auto;
+       border: none;
+   }
+
+   /* tabla */
+
+   .table th {
+       white-space: nowrap;
+       font-style: normal;
+   }
+
+   .table td .btn {
+       margin-right: 5px;
+   }
+
+   .table td .btn:last-child {
+       margin-right: 0;
+   }
+
+   /* btn nuevo aviso */
+
+   .form-card {
+      max-width: 800px;
+      margin: 4rem auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    .btn-gold {
+      background-color: var(--gold-accent);
+      border-color: var(--gold-accent);
+      color: white;
+    }
+
+    .btn-gold:hover {
+      background-color: #e67e22;
+      border-color: #e67e22;
+    }
+    
