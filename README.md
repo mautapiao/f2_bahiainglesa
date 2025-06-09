@@ -1,4 +1,4 @@
-# FULLSTACK II SEMANA 3 ANUNCIOS PUBLICITARIOS 
+# FULLSTACK II SEMANA 3 PORTAL BAHÍA INGLESA 
 
 <p align="center">
   <img src="img/logo_bahia.png" alt="Logo" width="250">
@@ -13,30 +13,25 @@ En esta tercera semana tendrán que realizar la actividad sumativa de la Experie
 
 ## Objetivos
 
-Parte I: Documentación 
+### Parte I: Documentación 
 
 1.	Deberán entregar en un archivo comprimido (.rar o .zip) la aplicación creada. El comprimido deberá contener el código fuente de la aplicación.
 2.	La aplicación FrontEnd creada debe cumplir con los siguientes aspectos: 
-
-a.	La interfaz gráfica desarrollada debe adaptarse a mínimo 3 tamaños de pantallas diferentes para su correcta visualización en dispositivos móviles basada en el GRID de 12 columnas.
-b.	Uso de HTML, CSS, Bootstrap y JS para la construcción del front-end en sus versiones más actuales.
-c.	Manejo y organización del trabajo grupal utilizando herramientas colaborativas y de repositorios en GIT.
-d.	Deberán estar construidas todas las pantallas y los formularios con sus respectivas validaciones (para ello, deben considerar la aplicación del caso seleccionado). 
+- a.	La interfaz gráfica desarrollada debe adaptarse a mínimo 3 tamaños de pantallas diferentes para su correcta visualización en dispositivos móviles basada en el GRID de 12 columnas.
+- b.	Uso de HTML, CSS, Bootstrap y JS para la construcción del front-end en sus versiones más actuales.
+- c.	Manejo y organización del trabajo grupal utilizando herramientas colaborativas y de repositorios en GIT.
+- d.	Deberán estar construidas todas las pantallas y los formularios con sus respectivas validaciones (para ello, deben considerar la aplicación del caso seleccionado). 
 3.	Para la creación de la aplicación FrontEnd deberán tener en cuenta lo siguiente: 
-a.	Considerar un caso que sea de su interés y que sea aprobado por todos los integrantes del equipo. 
-b.	Para delimitar su aplicación y el alcance de esta
+- a.	Considerar un caso que sea de su interés y que sea aprobado por todos los integrantes del equipo. 
+- b.	Para delimitar su aplicación y el alcance de esta
 
 ##	Todas deben contar con las siguientes páginas:  
-
 -	Inicio de sesión. 
 -	Registro de usuarios. 
 -	Recuperar contraseña.  
 -	Modificación de perfil.  
-
 -	Adicionalmente, deberás generar páginas internas para dar respuesta a las funcionalidades del sistema dependiendo del tema elegido (se dan más detalles en el apartado de temáticas). 
-
 -	En cuanto a las contraseñas, se deberán proporcionar al menos 4 validaciones de seguridad de estas para protección tales como longitud mínima, uso de caracteres especiales, uso de números y letras, longitud máxima o alguna otra que considere esencial. 
-
 -	En cuanto a los formularios, todos deben tener sus validaciones correspondientes para cada campo, puede guiarse de cualquier aplicación donde se haya registrado para usar las 
 validaciones necesarias. 
 
