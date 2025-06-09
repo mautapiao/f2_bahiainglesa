@@ -5,7 +5,7 @@
 </p>
 
 <div style="text-align:center;">
-  Bahí Inglesa, el verano se vive la Región de Atacama!
+  Bahía Inglesa, el verano se vive la Región de Atacama!
 </div>
 
 ## Descripción de la Actividad
